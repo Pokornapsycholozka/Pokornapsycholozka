@@ -34,10 +34,10 @@ ul{
 	list-style-type: none;
 }
 :root{
-    --main-color: #55527C;
-    --dark-color: #130F49;
-    --yellow-color: #FF972D;
-    --blue-color: #A5A6FF;
+    --main-color: #595959;
+    --dark-color: #a2a47b;
+    --yellow-color: #595959;
+    --blue-color: #595959;
     --font-inter: 'Inter', sans-serif;
     --font-karla: 'Karla', sans-serif;
     --font-kristi: 'Kristi', cursive;
@@ -640,7 +640,7 @@ body::-webkit-scrollbar-thumb{
 	min-height: 100vh;
 	clear: both;
 	float: left;
-	background-color: #EFFBF8;
+	background-color: #dbcebe;
 }
 .elisc_tm_home .details{
 	width: 100%;
@@ -684,9 +684,9 @@ body::-webkit-scrollbar-thumb{
 }
 .elisc_tm_button a{
 	color: #fff;
-	background-color: #130F49;
+	background-color: #a2a47b;
 	display: inline-block;
-	border: 1.5px solid #130F49;
+	border: 1.5px solid #a2a47b;
 	border-radius: 4px;
 	padding: 9px 40px 9px 40px;
 	white-space: nowrap;
@@ -699,14 +699,14 @@ body::-webkit-scrollbar-thumb{
 }
 .elisc_tm_button a:hover{
 	background-color: transparent;
-	color: #55527c;
+	color: #a2a47b;
 }
 .elisc_tm_button[data-style="border"] a{
 	background-color: transparent;
-	color: #55527c;
+	color: #a2a47b;
 }
 .elisc_tm_button[data-style="border"] a:hover{
-	background-color: #130F49;
+	background-color: #a2a47b;
 	color: #fff;
 }
 .elisc_tm_button[data-position="center"]{
