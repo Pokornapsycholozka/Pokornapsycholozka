@@ -12,19 +12,19 @@
 }
 
 .elisc_tm_about .left {
-    margin-bottom: 50px;
+    /*margin-bottom: 10px;*/
 }
 
 .elisc_tm_about .right .text {
     max-width: none;
     width: 100%;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
 
 .elisc_tm_about .right .text p {
     max-width: none;
     width: 100%;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     line-height: 1.6;
 }
 
@@ -39,3 +39,7 @@
     margin-bottom: 5px;    /* Add some space between list items */
 } 
 
+
+.testimonials_list .text p {
+    font-size: 15px;
+}

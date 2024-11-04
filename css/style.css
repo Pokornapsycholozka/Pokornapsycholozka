@@ -785,7 +785,7 @@ body::-webkit-scrollbar-thumb{
 .elisc_tm_about{
 	width: 100%;
 	float: left;
-	padding-top: 130px;
+	padding-top: 30px;
 }
 .elisc_tm_biography{
 	width: 100%;
@@ -2464,7 +2464,7 @@ body::-webkit-scrollbar-thumb{
 	.elisc_tm_portfolio .portfolio_list .details .category{margin-bottom: 0px;}
 	.elisc_tm_news .list .title h3{font-size: 25px;line-height: 33px;}
 	.elisc_tm_news .list .meta{margin-bottom: 6px;}
-	.elisc_tm_about{padding-top: 85px;}
+	/*.elisc_tm_about{padding-top: 85px;}*/
 	.elisc_tm_services{padding-top: 85px;}
 	.elisc_tm_portfolio{padding-top: 85px;}
 	.elisc_tm_news{padding-top: 85px;}
