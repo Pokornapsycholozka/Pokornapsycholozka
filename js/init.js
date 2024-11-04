@@ -302,7 +302,8 @@ function elisc_tm_preloader(){
 	
 	"use strict";
 	
-	var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+	// var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+	var isMobile = true;
 	var preloader = $('#preloader');
 	
 	if (!isMobile) {
@@ -326,8 +327,9 @@ function elisc_tm_my_load(){
 	
 	"use strict";
 	
-	var speed	= 500;
-	setTimeout(function(){elisc_tm_preloader();},speed);
+	// var speed	= 0;
+	// setTimeout(function(){elisc_tm_preloader();},speed);
+	elisc_tm_preloader();
 }
 
 // -----------------------------------------------------
