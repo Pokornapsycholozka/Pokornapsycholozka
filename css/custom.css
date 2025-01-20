@@ -118,6 +118,23 @@ p a {
     .elisc_tm_contact {
         padding-top: 20px;
     }
+
+    .elisc_tm_experience {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .elisc_tm_counter {
+        margin-bottom: 20px;
+    }
+
+    hr {
+        width: 950px;
+        max-width: calc(100% - 70px);
+    }
+
+    .elisc_tm_home .tm_content {
+        padding-left: 50px;
+    }
 }
 
 @media (min-width: 1600px) {
