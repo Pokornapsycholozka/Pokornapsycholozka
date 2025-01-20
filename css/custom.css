@@ -183,4 +183,11 @@ p a {
         margin-bottom: 20px;
     }
 
+    .elisc_tm_home .details .right img {
+        max-width: 400px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
 }
