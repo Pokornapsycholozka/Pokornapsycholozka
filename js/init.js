@@ -136,8 +136,7 @@ function elisc_tm_trigger_menu(){
 	var mobileMenuList	= jQuery('.elisc_tm_mobile_menu .menu_list ul li a');
 
 	hamburger.on('click',function(){
-		var element 	= jQuery(this);
-
+		var element 	= jQuery(this);		
 		if(element.hasClass('is-active')){
 			element.removeClass('is-active');
 			mobileMenu.removeClass('opened');
@@ -610,11 +609,12 @@ function elisc_tm_scrollable(){
 	var verMenu			= jQuery('.elisc_tm_sidebar .menu');
 	var copyright		= jQuery('.elisc_tm_sidebar .copyright').outerHeight()+spacing;
 	
+	console.log("aa1");
 	verMenu.css({height:H-avatarHeight-copyright});
 	
 	scrollable.each(function(){
-		var element		= jQuery(this);
-		
+		var element		= jQuery(this);			
+		console.log("aa2");
 		element.css({height: H-avatarHeight-copyright}).niceScroll({
 			touchbehavior:false,
 			cursorwidth:0,
@@ -663,9 +663,9 @@ function elisc_tm_down(){
 	
 	"use strict";
 		
-	jQuery('.anchor').on('click',function(){
-		
+	jQuery('.anchor').on('click',function(){		
 		if($.attr(this, 'href') !== '#'){
+			console.log("asd333");
 			$('html, body').animate({
 				scrollTop: $($.attr(this, 'href')).offset().top
 			}, 800);
