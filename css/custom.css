@@ -101,6 +101,14 @@ p a {
     text-decoration: underline;
 }
 
+.social svg, .social img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    float: left;
+    left: 50%;
+}
+
 @media (max-width: 1600px) {
     .elisc_tm_sidebar .name {
         margin-top: 20px;
