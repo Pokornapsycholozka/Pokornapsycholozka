@@ -192,10 +192,15 @@ p a {
     }
 
     .elisc_tm_home .details .right img {
-        max-width: 400px;
+        width: 400px;
+        max-width: 90%;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .elisc_tm_home .tm_content {
+        padding-left: 30px;
     }
 
 }
